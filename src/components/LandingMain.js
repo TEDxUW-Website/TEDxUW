@@ -10,7 +10,6 @@ export default function LandingMain({ Image }) {
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "110vh",
-    width: "210vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start", // changed from "center" to "flex-start"
