@@ -1,0 +1,64 @@
+.mission-container {
+  max-width: 800px;
+  margin: auto;
+  margin-left: 200px;
+}
+
+.mission-title {
+  color: #FFF;
+  font-feature-settings: 'calt' off;
+  font-family: Inter;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86.307px; /* 105.253% */
+  letter-spacing: -1.64px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.mission-statement {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.mission-statement-highlight {
+  color: #D43F2E;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.sign-up-button {
+  background-color: #D43F2E;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Inter;
+  cursor: pointer;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: left;  
+  margin-bottom: 150px;
+}

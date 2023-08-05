@@ -1,0 +1,15 @@
+.text_col {
+  justify-items: left;
+  width: 400px;
+  /* background: blue; */
+  @media (max-width: 1040px) {
+    width: 100%;
+    background: green;
+  }
+}
+
+.img_col {
+  width: 536.08px;
+  margin-left: 35px;
+  text-align: right;
+}

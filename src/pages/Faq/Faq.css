@@ -1,0 +1,65 @@
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.question-container {
+  width: 800px;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.question-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Add a margin to separate from the answer */
+}
+
+.question-wrapper.closed {
+  border-bottom: 1px solid gray;
+}
+
+.question-wrapper.open {
+  border-bottom: none;
+}
+
+.question {
+  flex: 1;
+  margin-right: 10px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px; /* Add margin below */
+}
+
+.toggle-button {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.toggle-button.down::before {
+  content: "▼"; /* Arrow down */
+}
+
+.toggle-button.up::before {
+  content: "▲"; /* Arrow up */
+}
+
+.answer {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px; /* Add a margin to separate from the question */
+}

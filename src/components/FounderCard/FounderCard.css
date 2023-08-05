@@ -1,0 +1,16 @@
+.founder_img_col {
+  position: left;
+  justify-items: left;
+  margin-right: 20px;
+  width: 300px;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-left: 1rem;
+  }
+}
+.founder_desc_col {
+  @media (max-width: 800px) {
+    width: 90%;
+    padding-left: 1rem;
+  }
+}

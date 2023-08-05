@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600;700&display=swap');
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.homeHeaders {
+  font-size: 90px;
+  font-weight: bold;
+  color: #fff; /* White color */
+  font-family: 'Inter', sans-serif; /* Font family */
+}
+
+.ourStoryHeaders {
+  font-size: 50px;
+  /* font-weight: bold; */
+  color: #fff; /* White color */
+  font-family: 'Inter', sans-serif; /* Font family */
+}
+
+.about-header {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff; /* White color */
+  font-family: 'Inter', sans-serif; /* Font family */
+  text-align: left;
+  margin: 25px;
+}
+
+.faqQuestions {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff; /* White color */
+  font-family: 'Inter', sans-serif; /* Font family */
+}
+
+.faqAnswers {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* White color */
+  font-family: 'Inter', sans-serif; /* Font family */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}

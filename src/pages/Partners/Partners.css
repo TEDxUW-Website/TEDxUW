@@ -1,0 +1,7 @@
+.sponsor_col {
+  width: 310px;
+
+  @media (max-width: 310px) {
+    width: 100%;
+  }
+}

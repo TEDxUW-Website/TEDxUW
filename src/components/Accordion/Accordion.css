@@ -1,0 +1,14 @@
+.accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  background-color: #323232;
+  color: #fff;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* You can adjust this as needed */
+  padding: 50px 175px;
+}

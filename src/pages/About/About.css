@@ -1,0 +1,62 @@
+/* .col_type1 {
+  padding-top: 35px;
+  /* background: red; */
+/* margin-left: 0px;
+  margin-right: 0px; */
+/* padding: 0px; */
+/* transform: translateX(1rem); */
+/* } */
+
+.team-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.grid-container-odd,
+.grid-container-even {
+  margin: 30px 0;
+}
+
+.grid-container-odd {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 3fr 1.5fr 3fr;
+}
+
+.grid-container-even {
+  display: grid;
+  grid-template-columns: 2.25fr 3fr 1.5fr 3fr 2.25fr;
+}
+
+.grid-item {
+  border: 1px solid black;
+}
+
+.grid-container-odd .grid-item:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.grid-container-odd .grid-item:nth-child(2) {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.grid-container-odd .grid-item:nth-child(3) {
+  grid-column-start: 5;
+  grid-column-end: 5;
+}
+
+.grid-container-even .grid-item:nth-child(1) {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.grid-container-even .grid-item:nth-child(2) {
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+
+.button:hover {
+  cursor: pointer;
+}
