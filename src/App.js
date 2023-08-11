@@ -1,5 +1,5 @@
 import "./styles.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 import {
   Container,
@@ -22,7 +22,7 @@ export default function App() {
   return (
     <div className="App">
       {/* <BrowserRouter basename="ted737"> */}
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path={process.env.PUBLIC_URL + "/"} element={<Landing />} />
           <Route path={process.env.PUBLIC_URL + "/About"} element={<About />} />
@@ -40,7 +40,7 @@ export default function App() {
             element={<Story />}
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
   );
